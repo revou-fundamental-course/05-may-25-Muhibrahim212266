@@ -52,10 +52,6 @@ nav a:hover {
 }
 
 /* Main Content */
-.content {
-  padding: 40px 20px;
-  text-align: center;
-}
 .home-content {
   display: flex;
   justify-content: space-between;
