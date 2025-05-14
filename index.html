@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Muh. Ibrahim</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   </head>
 
   <body>
-    <!-- Main Header -->
     <header>
       <!-- logo -->
       <div class="main-logo">
@@ -17,99 +18,278 @@
 
       <!-- Navigation -->
       <nav>
-        <a href="">Home</a>
-        <a href="">Our Package</a>
-        <a href="">Call Us</a>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#package">Our Package</a>
       </nav>
     </header>
 
     <!-- Main Content (halaman utama web) -->
     <main>
       <!-- Home Content -->
-      <section class="home-content">
-        <!-- testimoni bagian kirriii -->
-        <div class="left-panel">
-          <div class="image-placeholder"></div>
-          <blockquote>"Liburan jadi menyenangkan bersama Travel Agentku."</blockquote>
-          <div class="profile">
-            <div class="avatar"></div>
-            <div class="user-info">
-              <strong>Florence Hughes</strong>
-              <p>Ibu Rumah Tangga, 28</p>
+
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <h1>Temukan Liburan Impianmu</h1>
+          <p>Paket wisata lengkap, nyaman, dan terpercaya ke berbagai destinasi populer.</p>
+          <a href="#package" class="cta-button">Lihat Paket Wisata</a>
+        </div>
+      </section>
+
+      <!-- About Us Section -->
+      <section id="about" class="about-us">
+        <h2>About Us</h2>
+        <p>
+          Kami adalah agen perjalanan yang berfokus pada memberikan paket wisata terbaik untuk liburan Anda selanjutnya. Tim kami memiliki passion yang besar dalam membantu Anda menciptakan kenangan tak terlupakan dengan pengalaman
+          perjalanan yang telah kami pilihkan dengan cermat. Apakah Anda mencari resor pantai yang nyaman untuk bersantai atau tur petualangan seru, kami memiliki pilihan yang sesuai untuk setiap jenis pelancong.
+        </p>
+      </section>
+
+      <section id="contact" class="testi-contact">
+        <h2>Your Trusted Travel Agent's</h2>
+        <p>Your happiness is our happiness</p>
+
+        <!-- Konten kiri dan kanan -->
+        <div class="content-row">
+          <!-- Testimoni kiri -->
+          <div class="panel-kiri">
+            <div class="testimonial-slider">
+              <div class="testimonial-slide active">
+                <div class="image-placeholder" style="background-image: url('assets/testimoni/IMG-20250228-WA0088.jpg')"></div>
+                <p class="testimonial-text">"Liburan jadi menyenangkan bersama Travel Agentku."</p>
+                <div class="profile">
+                  <div class="avatar" style="background-image: url('assets/testimoni/profile1.jpg')"></div>
+                  <div class="user-info">
+                    <strong>Muh. Ibrahim</strong>
+                    <p>Web Developer, 22</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonial-slide">
+                <div class="image-placeholder" style="background-image: url('assets/testimoni/foto1.jpg')"></div>
+                <p class="testimonial-text">"Pelayanannya ramah dan sangat profesional."</p>
+                <div class="profile">
+                  <div class="avatar" style="background-image: url('assets/testimoni/profile6.jpeg')"></div>
+                  <div class="user-info">
+                    <strong>Budi Santoso</strong>
+                    <p>Karyawan Swasta, 35</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonial-slide">
+                <div class="image-placeholder" style="background-image: url('assets/testimoni/foto2.jpg')"></div>
+                <p class="testimonial-text">"Paket wisatanya lengkap dan harganya terjangkau."</p>
+                <div class="profile">
+                  <div class="avatar" style="background-image: url('assets/testimoni/profile3.jpeg')"></div>
+                  <div class="user-info">
+                    <strong>Siti Aminah</strong>
+                    <p>Wiraswasta, 40</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 1 -->
+              <div class="testimonial-slide">
+                <div class="image-placeholder" style="background-image: url('assets/testimoni/foto3.jpeg')"></div>
+                <p class="testimonial-text">"Liburan jadi menyenangkan bersama Travel Agentku."</p>
+                <div class="profile">
+                  <div class="avatar" style="background-image: url('assets/testimoni/profile4.jpeg')"></div>
+                  <div class="user-info">
+                    <strong>Florence Hughes</strong>
+                    <p>Ibu Rumah Tangga, 28</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 2 -->
+              <div class="testimonial-slide">
+                <div class="image-placeholder" style="background-image: url('assets/testimoni/foto4.jpg')"></div>
+                <p class="testimonial-text">"Pelayanannya ramah dan sangat profesional."</p>
+                <div class="profile">
+                  <div class="avatar" style="background-image: url('assets/testimoni/profile6.jpeg')"></div>
+                  <div class="user-info">
+                    <strong>Agung Putra</strong>
+                    <p>Mahasiswa, 20</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 3 -->
+              <div class="testimonial-slide">
+                <div class="image-placeholder" style="background-image: url('assets/testimoni/foto5.jpg')"></div>
+                <p class="testimonial-text">"Saya sangat puas, semuanya sesuai ekspektasi!"</p>
+                <div class="profile">
+                  <div class="avatar" style="background-image: url('assets/testimoni/profile3.jpeg')"></div>
+                  <div class="user-info">
+                    <strong>Andi Ummu Amalia</strong>
+                    <p>Mahasiswa, 20</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 4 -->
+              <div class="testimonial-slide">
+                <div class="image-placeholder" style="background-image: url('assets/testimoni/foto4.jpg')"></div>
+                <p class="testimonial-text">"Rekomendasi banget buat liburan keluarga!"</p>
+                <div class="profile">
+                  <div class="avatar" style="background-image: url('assets/testimoni/avatar4.jpg')"></div>
+                  <div class="user-info">
+                    <strong>Andi Pratama</strong>
+                    <p>Guru, 33</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- kontak seblah kanan -->
-        <div class="contact-form">
-          <h2>Contact Us</h2>
-          <p>Sales akan menghubungi anda 1x24 Jam setelah data kami terima.</p>
-          <form>
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" placeholder="First and last name" />
+          <!-- Kontak kanan -->
+          <div class="panel-kanan">
+            <h2>Contact Us</h2>
+            <p>Sales akan menghubungi anda 1x24 Jam setelah data kami terima.</p>
+            <form id="contactForm">
+              <label for="name">Your Name:</label>
+              <input type="text" id="name" placeholder="First and last name" />
+              <small class="error-message" id="name-error"></small>
 
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" placeholder="example@email.com" />
+              <label for="email">Email Address:</label>
+              <input type="email" id="email" placeholder="example@email.com" />
+              <small class="error-message" id="email-error"></small>
 
-            <label for="interest">What are you interested in?</label>
-            <select id="interest">
-              <option>Select option</option>
-            </select>
+              <label for="interest">What are you interested in?</label>
+              <select id="interest">
+                <option value="">Select option</option>
+                <option value="bali">Bali Tour</option>
+                <option value="lombok">Lombok Tour</option>
+                <option value="komodo">Komodo Trip</option>
+              </select>
+              <small class="error-message" id="interest-error"></small>
 
-            <button type="submit">SEND</button>
-          </form>
+              <button type="submit">SEND</button>
+            </form>
+          </div>
         </div>
       </section>
 
       <!-- Package Content -->
-      <section>
-        <section class="our-package">
-          <div class="package-header">
-            <h2>Our Package</h2>
+      <section id="package" class="our-package">
+        <div class="package-header">
+          <h2>Our Package</h2>
+        </div>
+
+        <div class="package-grid">
+          <div class="package-item">
+            <div class="icon lightbulb"></div>
+            <h3>Bali</h3>
+            <p>Travel dan wisata di Bali. <br />Kunjungi cagar budaya dan kuliner yang menarik</p>
           </div>
 
-          <div class="package-grid">
-            <div class="package-item">
-              <div class="icon lightbulb"></div>
-              <h3>Bali</h3>
-              <p>Travel dan wisata di Bali. <br />Kunjungi cagar budaya dan kuliner yang menarik</p>
-            </div>
-
-            <div class="package-item">
-              <div class="icon lightbulb"></div>
-              <h3>Japan</h3>
-              <p>Travel dan wisata di Japan. <br />Kunjungi cagar budaya dan kuliner yang menarik</p>
-            </div>
-
-            <div class="package-item">
-              <div class="icon lightbulb"></div>
-              <h3>Singapore</h3>
-              <p>This description supports <br />and extends the bullet point above.</p>
-            </div>
-
-            <div class="package-item">
-              <div class="icon star"></div>
-              <h3>Bandung</h3>
-              <p>This description supports <br />and extends the bullet point above.</p>
-            </div>
-
-            <div class="package-item">
-              <div class="icon star"></div>
-              <h3>Surabaya</h3>
-              <p>This description supports <br />and extends the bullet point above.</p>
-            </div>
-
-            <div class="package-item">
-              <div class="icon star"></div>
-              <h3>Third Feature</h3>
-              <p>This description supports <br />and extends the bullet point above.</p>
-            </div>
+          <div class="package-item">
+            <div class="icon lightbulb"></div>
+            <h3>Japan</h3>
+            <p>Travel dan wisata di Japan. <br />Kunjungi cagar budaya dan kuliner yang menarik</p>
           </div>
-        </section>
+
+          <div class="package-item">
+            <div class="icon lightbulb"></div>
+            <h3>Singapore</h3>
+            <p>This description supports <br />and extends the bullet point above.</p>
+          </div>
+
+          <div class="package-item">
+            <div class="icon star"></div>
+            <h3>Bandung</h3>
+            <p>This description supports <br />and extends the bullet point above.</p>
+          </div>
+
+          <div class="package-item">
+            <div class="icon star"></div>
+            <h3>Surabaya</h3>
+            <p>This description supports <br />and extends the bullet point above.</p>
+          </div>
+
+          <div class="package-item">
+            <div class="icon star"></div>
+            <h3>Third Feature</h3>
+            <p>This description supports <br />and extends the bullet point above.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section class="faq">
+        <h2>Pertanyaan yang Sering Diajukan</h2>
+
+        <div class="faq-item">
+          <h3>Paket wisata apa yang cocok untuk pemula?</h3>
+          <p>Kami merekomendasikan paket wisata Bali, karena menawarkan berbagai destinasi menarik dan fasilitas lengkap.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Bagaimana cara memesan paket wisata?</h3>
+          <p>Anda bisa memesan langsung melalui website kami atau menghubungi layanan pelanggan kami untuk bantuan lebih lanjut.</p>
+        </div>
+
+        <div class="faq-item more-faq">
+          <h3>Apakah harga sudah termasuk tiket pesawat?</h3>
+          <p>Beberapa paket sudah termasuk tiket pesawat, namun sebagian lainnya tidak. Silakan cek detail setiap paket sebelum memesan.</p>
+        </div>
+
+        <div class="faq-item more-faq">
+          <h3>Apakah saya bisa membatalkan atau mengubah jadwal perjalanan?</h3>
+          <p>Ya, pembatalan atau perubahan jadwal dapat dilakukan sesuai dengan syarat dan ketentuan yang berlaku. Silakan hubungi kami segera untuk informasi lebih lanjut.</p>
+        </div>
+
+        <div class="faq-item more-faq">
+          <h3>Apakah tersedia layanan pemandu wisata?</h3>
+          <p>Ya, setiap paket wisata kami dilengkapi dengan pemandu wisata profesional untuk memastikan kenyamanan Anda selama perjalanan.</p>
+        </div>
+
+        <div class="faq-item more-faq">
+          <h3>Apa yang harus saya bawa saat mengikuti perjalanan?</h3>
+          <p>Kami menyarankan membawa identitas diri, pakaian yang sesuai dengan tujuan wisata, obat pribadi, serta kamera untuk mengabadikan momen indah Anda.</p>
+        </div>
+
+        <div class="faq-item more-faq">
+          <h3>Apakah tersedia paket khusus untuk keluarga atau kelompok?</h3>
+          <p>Tentu! Kami menyediakan paket khusus untuk keluarga maupun rombongan, dengan harga dan fasilitas yang bisa disesuaikan.</p>
+        </div>
+        <button id="show-more-btn">Lihat Selengkapnya</button>
+        <button id="hide-more-btn" style="display: none">Tutup</button>
       </section>
     </main>
-
     <!-- Footer -->
-    <footer></footer>
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h4>Tentang Kami</h4>
+          <p>Kami adalah agen perjalanan terpercaya yang siap membantu liburan Anda menjadi lebih mudah dan menyenangkan.</p>
+        </div>
+
+        <div class="footer-column">
+          <h4>Kontak</h4>
+          <p>Email: info@travelagentku.com</p>
+          <p>Telepon: +62 812-3456-7890</p>
+          <p>Alamat: Jl. Pariwisata No. 123, Jakarta</p>
+        </div>
+
+        <div class="footer-column">
+          <h4>Ikuti Kami</h4>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 TravelAgentku. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
